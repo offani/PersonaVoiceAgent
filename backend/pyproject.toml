@@ -1,0 +1,12 @@
+[project]
+name = "voice-bot-backend"
+version = "0.1.0"
+description = "Backend for the Voice Bot"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "uvicorn",
+    "langchain-groq",
+    "python-dotenv",
+    "fastapi[standard]>=0.121.3",
+]
